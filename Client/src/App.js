@@ -5,6 +5,7 @@ import Cards from "./components/Cards";
 import Spinner from "./components/Spinner";
 import { apiUrl, filterData } from './data';
 import { toast } from "react-toastify";
+import Axios from 'axios';
 
 const App = () => {
   const [courses, setCourses] = useState(null);
