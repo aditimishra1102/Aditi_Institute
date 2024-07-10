@@ -21,4 +21,4 @@ export const filterData = [
   },
 ];
 
-export const apiUrl = "https://aditi-institute.vercel.app";
+export const apiUrl = "https://aditi-institute.vercel.app/api/v1/courses";
